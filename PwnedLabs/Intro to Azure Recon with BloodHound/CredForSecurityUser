@@ -1,0 +1,2 @@
+# Credentials: User: security-user | Password: Imp0sec0sT!
+az storage blob download --account-name securityconfigs --container-name security-pc --name config-latest.xml --auth-mode login
