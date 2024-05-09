@@ -12,6 +12,8 @@
 |  1  | **S3 Enumeration Basics**                |  Red Team  |  AWS           | [Here](https://pwnedlabs.io/labs/aws-s3-enumeration-basics)             | [Here](https://github.com/Raunaksplanet/All-CTF-Challenges-Walkthrough/tree/main/PwnedLabs/S3%20Enumeration%20Basics)                    |
 |  2  | **Hidden Files in Google Storage**       |  Red Team  |  GCP           | [Here](https://pwnedlabs.io/labs/reveal-hidden-files-in-google-storage) | [Here](https://github.com/Raunaksplanet/All-CTF-Challenges-Walkthrough/tree/main/PwnedLabs/Hidden%20Files%20in%20Google%20Storage)             |     
 |  3  | **Intro to Azure Recon with BloodHound**       |  Red Team  |  Azure           | [Here](https://pwnedlabs.io/labs/intro-to-azure-recon-with-bloodhound) | [Here](https://github.com/Raunaksplanet/All-CTF-Challenges-Walkthrough/tree/main/PwnedLabs/Intro%20to%20Azure%20Recon%20with%20BloodHound)             |   
+|  4  | **Path Traversal to AWS credentials to S3**       |  Red Team  |  AWS           | [Here](https://pwnedlabs.io/labs/path-traversal-to-aws-credentials-to-s3) | [Here](https://github.com/Raunaksplanet/All-CTF-Challenges-Walkthrough/tree/main/PwnedLabs/Path%20Traversal%20to%20AWS%20credentials%20to%20S3)             |   
+
 
 ## Incomplete Labs
 
