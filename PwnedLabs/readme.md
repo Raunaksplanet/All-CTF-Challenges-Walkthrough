@@ -17,34 +17,35 @@
 
 </aside>
 
-| SNo |                    Room Name                    |
-| --- | ---------------------------------------------- |
-|  1  | Loot Public EBS Snapshots                      |
-|  2  | Identify the AWS Account ID from a Public S3 Bucket |
-|  3  | Intro to AWS IAM Enumeration                   |
-|  4  | Pillage Exposed RDS Instances                  |
-|  5  | Breach in the Cloud                            |
-|  6  | Hunt in the Cloud with Splunk                  |
-|  7  | Exploit SSRF with Gopher for GCP Initial Access|
-|  8  | Azure Blob Container to Initial Access         |
-|  9  | Unlock Access with Azure Key Vault             |
-| 10  | Loot Exchange, Teams and SharePoint with GraphRunner|
-| 11  | SQS and Lambda SQL Injection                   |
-| 12  | Uncover Secrets in CodeCommit and Docker       |
-| 13  | Plunder Public RDS Snapshots                   |
-| 14  | Path Traversal to AWS credentials to S3        |
-| 15  | Hunt for Secrets in Git Repos                  |
-| 16  | Access Secrets with S3 Bucket Versioning       |
-| 17  | Leverage Leaked Credentials for Pwnage         |
-| 18  | Abuse Cognito User and Identity Pools          |
-| 19  | S3 Bucket Brute Force to Breach                |
-| 20  | SSRF to Pwned                                  |
-| 21  | Leverage Insecure Storage and Backups for Profit|
-| 22  | Assume Privileged Role with External ID        |
-| 23  | Execute and Identify Credential Abuse in AWS   |
-| 24  | Secure S3 with Amazon Macie                    |
-| 25  | Identify IAM Breaches with CloudTrail and Athena|
-| 26  | Investigate Threats with Amazon Detective      |
-| 27  | Reveal Hidden Risks with AWS Security Hub      |
-| 28  | Exploit Weak Bucket Policies for Privileged Access|
+| Category                          | Technique                                      |
+|-----------------------------------|------------------------------------------------|
+| AWS (Amazon Web Services) Related | Loot Public EBS Snapshots                     |
+|                                   | Identify the AWS Account ID from a Public S3 Bucket |
+|                                   | Intro to AWS IAM Enumeration                  |
+|                                   | Pillage Exposed RDS Instances                 |
+|                                   | Breach in the Cloud                           |
+|                                   | Path Traversal to AWS credentials to S3        |
+|                                   | Plunder Public RDS Snapshots                  |
+|                                   | Assume Privileged Role with External ID        |
+|                                   | Execute and Identify Credential Abuse in AWS  |
+|                                   | Secure S3 with Amazon Macie                   |
+|                                   | Identify IAM Breaches with CloudTrail and Athena |
+|                                   | Investigate Threats with Amazon Detective      |
+|                                   | Reveal Hidden Risks with AWS Security Hub     |
+| Azure Related                     | Azure Blob Container to Initial Access        |
+|                                   | Unlock Access with Azure Key Vault             |
+| Cloud Security and Breach         | Hunt in the Cloud with Splunk                 |
+|                                   | Hunt for Secrets in Git Repos                 |
+|                                   | S3 Bucket Brute Force to Breach               |
+|                                   | SSRF to Pwned                                 |
+|                                   | Leverage Insecure Storage and Backups for Profit |
+|                                   | Access Secrets with S3 Bucket Versioning       |
+|                                   | Leverage Leaked Credentials for Pwnage        |
+| Exploitation and Attack Techniques| Exploit SSRF with Gopher for GCP Initial Access |
+|                                   | Loot Exchange, Teams and SharePoint with GraphRunner |
+|                                   | SQS and Lambda SQL Injection                  |
+|                                   | Uncover Secrets in CodeCommit and Docker      |
+|                                   | Abuse Cognito User and Identity Pools         |
+|                                   | Exploit Weak Bucket Policies for Privileged Access |
+
 
