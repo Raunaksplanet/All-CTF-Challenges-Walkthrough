@@ -10,7 +10,7 @@
 | SNo |                 Lab Name                 |    Team    |   Lab Type     |                              Lab Link                            | 
 | --- | ---------------------------------------- |:----------:|:--------------:| :---------------------------------------------------------------:|
 |  1  | **S3 Enumeration Basics**                |  Red Team  |  AWS           |    [Here](https://pwnedlabs.io/labs/aws-s3-enumeration-basics)   |
-
+|  2  | **Hidden Files in Google Storage**       |  Red Team  |  GCP           |    [Here](https://pwnedlabs.io/labs/reveal-hidden-files-in-google-storage)   |
 
 
 ## Incomplete Labs
@@ -19,14 +19,12 @@
 
 | SNo |                 Room Name                |    
 | --- | ---------------------------------------- |
-|  1  | **S3 Enumeration Basics**                |
 |  2  | Loot Public EBS Snapshots               |
 |  3  | Identify the AWS Account ID from a Public S3 Bucket |
 |  4  | Intro to AWS IAM Enumeration            |
 |  5  | Pillage Exposed RDS Instances           |
 |  6  | Breach in the Cloud                     |
 |  7  | Hunt in the Cloud with Splunk           |
-|  8  | Reveal Hidden Files in Google Storage   |
 |  9  | Intro to Azure Recon with BloodHound     |
 | 10  | Exploit SSRF with Gopher for GCP Initial Access |
 | 11  | Azure Blob Container to Initial Access  |
