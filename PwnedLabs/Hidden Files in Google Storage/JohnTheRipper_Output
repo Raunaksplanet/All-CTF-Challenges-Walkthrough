@@ -1,0 +1,13 @@
+Created directory: /home/kali/.john
+Using default input encoding: UTF-8
+Loaded 1 password hash (7z, 7-Zip archive encryption [SHA256 256/256 AVX2 8x AES])
+Cost 1 (iteration count) is 524288 for all loaded hashes
+Cost 2 (padding size) is 3 for all loaded hashes
+Cost 3 (compression type) is 2 for all loaded hashes
+Cost 4 (data length) is 21837 for all loaded hashes
+Will run 4 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+balance          (backup.7z)     
+1g 0:00:00:07 DONE (2024-05-09 18:07) 0.1265g/s 14.81p/s 14.81c/s 14.81C/s being..Image
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed.
