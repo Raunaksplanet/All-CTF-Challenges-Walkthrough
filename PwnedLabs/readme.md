@@ -7,10 +7,10 @@
 
 </aside>
 
-| SNo |                 Lab Name                 |    Team    |   Lab Type     |                              Lab Link                            | 
-| --- | ---------------------------------------- |:----------:|:--------------:| :---------------------------------------------------------------:|
-|  1  | **S3 Enumeration Basics**                |  Red Team  |  AWS           |    [Here](https://pwnedlabs.io/labs/aws-s3-enumeration-basics)   |
-|  2  | **Hidden Files in Google Storage**       |  Red Team  |  GCP           |    [Here](https://pwnedlabs.io/labs/reveal-hidden-files-in-google-storage)   |
+| SNo |                 Lab Name                 |    Team    |   Lab Type     |                              Lab Link                                   |    Folder           |
+| --- | ---------------------------------------- |:----------:|:--------------:| :---------------------------------------------------------------------: | :-----------------: |
+|  1  | **S3 Enumeration Basics**                |  Red Team  |  AWS           | [Here](https://pwnedlabs.io/labs/aws-s3-enumeration-basics)             | [Here](https://github.com/Raunaksplanet/All-CTF-Challenges-Walkthrough/tree/main/PwnedLabs/S3%20Enumeration%20Basics)                    |
+|  2  | **Hidden Files in Google Storage**       |  Red Team  |  GCP           | [Here](https://pwnedlabs.io/labs/reveal-hidden-files-in-google-storage) | [Here](https://github.com/Raunaksplanet/All-CTF-Challenges-Walkthrough/tree/main/PwnedLabs/Hidden%20Files%20in%20Google%20Storage)             |     
 
 
 ## Incomplete Labs
