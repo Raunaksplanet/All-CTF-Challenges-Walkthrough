@@ -1,0 +1,54 @@
+--- Task 2 ---
+
+As a security researcher you will often be required to find specific files/folders on a system based on various conditions ranging from, but not limited to the following:
+
+    filename
+    size
+    user/group
+    date modified
+    date accessed
+    Its keyword contents
+Therefore, we can do this using the following syntax:
+
+What we can do                            Syntax                                                Real example of syntax
+1.Find files based on filename            find [directory path] -type f -name [filename]        find /home/Andy -type f -name sales.txt
+2.Find Directory based on directory name  find [directory path] -type d -name [filename]	    find /home/Andy -type d -name pictures
+3.Find files based on size                find [directory path] -type f -size [size]	        find /home/Andy -type f -size 10c (c for bytes, k for kilobytes M megabytes G for gigabytes)
+4.Find files based on username            find [directory path] -type f -user [username]	    find /etc/server -type f -user john
+5.Find files based on group               find [directory path] -type f -group [group name]	    find /etc/server -type f -group teamstar
+6.Find files with a specific keyword      grep -iRl [directory path/keyword]                    grep -iRl '/folderA/flag'
+
+**placing: 2>/dev/null at the end of your find command can help filter your results to exclude files/directories that you do not have permission to.**
+**CTRL+L allows you to clear the screen quicker rather than typing 'clear' all the time.**
+
+
+--- Task 4 ---
+
+last 2nd task: to downlaod file use this command, "scp -p <port number> sarah@<ip address>:/path/to/file /path/to/save/file"
+from main machine 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

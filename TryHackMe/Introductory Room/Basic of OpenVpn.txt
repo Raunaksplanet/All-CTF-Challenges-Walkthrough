@@ -1,0 +1,15 @@
+'''
+Basic of OpenVpn Writeup
+'''
+
+1.Connecting to the openvpn to get access to machines:
+1.1. First download openvpn configuration file from access section in tryhackme website: https://tryhackme.com/access
+1.2. After Downloading openvpn configuration file open terminal and change directory to Download section or where your openvpn configuration file present.
+1.3. Than type "Openvpn <configuration file name>"
+1.4. After this you'll get connected to the openvpn server 
+1.5. start your tryhackme vulnearble machine.   
+
+2. Disconnecting to the openvpn network using terminal:
+2.1. hence openvpn don't provide direct way of disconnecting to the vpn, we simply kill the proccess of openvpn
+2.2. Follow these commands:                 "ps -A | grep openvpn"
+2.3. Choose id or proccess name and type:   "kill<proccess name or id>"

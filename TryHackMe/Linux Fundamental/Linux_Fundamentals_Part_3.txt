@@ -1,0 +1,52 @@
+'''
+Linux Fundamentals Part 3 Writeup
+'''
+
+--- Task 2 ---
+1. Deploy the machine and wait more then 1 minute.
+2. Login to ssh with the help of local machine terminal.
+3. both ssh password and username is tryhackme.
+4. format of login into ssh is "ssh tryhackme@<machine ip address>"
+5. Task 2 finished
+
+
+--- Task 4 ---
+0. I'm Assuming that you are already connected to the openvpn  
+1. In this task we will use a python service named "http.server" and donwload a file from tryhackme 
+victim machine (EG: task 2 ssh login)
+2. type "python3 http.server" after login to tryhackme ssh 
+3. open another tab type "wget http://<machine ip>:8000/.file.txt"
+4. open file using "cat .flag.txt" and submit the flag.
+5. now exit the http.server using ctrl+c 
+6. task 4 finished
+
+
+--- Task 5 ---
+0. In this task we'll check all the proccess running in the background and try to find a flag.
+1. write "ps aux" to displat all the service running in the background and then try to find the flag 
+   and submit it 
+2. some useful commands we learned in the task 5:-
+2.1. ps    : (use to display processes)
+2.2. ps aux: (use to display all the processes runnning by machine by default and by other users)
+2.3. top   : op gives you real-time statistics about the processes running on your system instead of
+             a one-time view. These statistics will refresh every 10 seconds, 
+2.4. kill  : To kill a command, we can use the appropriately named kill command and the associated  
+             PID that we wish to kill. i.e., to kill PID 1337, we'd use "kill 1337".
+2.5. pkill : use to kill a process.
+2.6. ctrl+c : use to exit a process
+2.7. ctrl+z : use to background a process
+3. Task 5 finished
+
+
+--- Task 6 ---
+0. In this task we learn about crontab which is use to maintaing system automation
+1. type "crontab -e" to open a crontab and in the last line you see @reboot is written
+   which is our answer
+
+
+--- Task 8 ---
+0. In this task we learn about system logs
+1. first change directory to the /var/log/apache2 (using tryhackme ssh logined panel)
+2. type ls -la (now check which log file belongings to you)
+3. open the log file and answer the questions.
+4. Task 8 finished 

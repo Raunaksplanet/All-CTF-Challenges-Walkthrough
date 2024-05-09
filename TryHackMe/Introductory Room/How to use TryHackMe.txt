@@ -1,0 +1,23 @@
+'''
+Write up for "How to use TryHackMe" Lab
+'''
+
+After connecting to openvpn, start machine wait more than 1 minute to 
+load machine properly then firs start "Attack box" after that start "Victim box"  
+
+# Questions & Answers
+      Q1. Start the machine by clicking the “Start Machine” button. This machine is Linux, an operating system that you’ll learn more about later! Lets do a quick tutorial.
+      Ans: No Ans Needed
+      
+      Q2. On your machine (right-hand side), lets list what files and folders there are. We can do this by typing “ls”. What is the name of the folder you see?
+      (HINT: On the Linux machine, type “ls” and hit enter on your keyboard)
+      Ans : testdir
+      
+      Q3. Like you would open a folder on your Desktop, you can change directory (moving folders) by typing “cd <location>”. Move into the folder you just found.(HINT: cd testdir)
+      Ans: No Ans Needed
+      
+      Q4. We can see a files content by typing “cat <filename>”. List the files in the folder you are in, whats content is in the hello.txt file?
+      (HINT: Remember to list files/folders you type “ls”. Then you can type “cat <file you found>” to see its contents. Type “cat hello.txt”)      
+      Ans: hacking lab
+      
+      Q5. When you’ve finished with the machine in any room, make sure to stop it by clicking the red “Terminate” button.

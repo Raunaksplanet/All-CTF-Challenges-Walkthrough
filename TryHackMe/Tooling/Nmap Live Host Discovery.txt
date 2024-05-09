@@ -1,0 +1,102 @@
+**Questions & Answers**
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--- Task 1 ---
+Q1. Some of these questions will require the use of a static site to answer the task questions, while others require the use of the AttackBox and the target VM.
+Ans1. No Answers
+
+
+--- Task 2 ---
+Q1.How many devices can see the ARP Request?		
+Ans1. 4
+
+Q2.Did computer6 receive the ARP Request? (Y/N)	
+Ans2. n
+
+Q3.How many devices can see the ARP Request?
+Ans3. 4
+
+Q4.Did computer6 reply to the ARP Request? (Y/N)
+Ans4. y
+
+
+--- Task 3 ---
+Q1. What is the first IP address Nmap would scan if you provided 10.10.12.13/29 as your target? 		
+Ans1. 10.10.12.8
+
+Q2.How many IP addresses will Nmap scan if you provide the following range 10.10.0-255.101-125? 
+Ans2. 6400
+
+
+--- Task 4 ---
+Q1.What is the type of packet that computer1 sent before the ping?	
+Ans1. arp request
+
+Q2.What is the type of packet that computer1 received before being able to send the ping?
+Ans2. arp response
+
+Q3.How many computers responded to the ping request?
+Ans3. 1
+
+Q4.What is the name of the first device that responded to the first ARP Request?
+Ans4. router
+
+Q5.What is the name of the first device that responded to the second ARP Request?
+Ans5. computer5
+
+Q6.Send another Ping Request. Did it require new ARP Requests? (Y/N)
+Ans6. n
+
+
+--- Task 5 ---
+Q1.How many devices are you able to discover using ARP requests?	
+Ans1. 3
+
+
+--- Task 6 ---
+Q1. What is the option required to tell Nmap to use ICMP Timestamp to discover live hosts? 
+Ans1. -pp
+
+Q2.What is the option required to tell Nmap to use ICMP Address Mask to discover live hosts?
+Ans2. -pm
+
+Q3.What is the option required to tell Nmap to use ICMP Echo to discover live hosts?
+Ans3. -pe
+
+
+--- Task 7 ---
+Q1. Which TCP ping scan does not require a privileged account? 	
+Ans1. TCP SYN Ping
+
+Q2.Which TCP ping scan requires a privileged account?
+Ans2. TCP ACK Ping
+
+Q3.What option do you need to add to Nmap to run a TCP SYN ping scan on the telnet port?
+Ans3. -PS23
+
+
+--- Task 8 ---
+Q1.We want Nmap to issue a reverse DNS lookup for all the possibles hosts on a subnet, hoping to get some insights from the names. What option should we add? 
+Ans1. -R 
+
+
+--- Task 9 ---
+Q1. Ensure you have taken note of all the Nmap options explained in this room. To continue learning about Nmap, please join the room Nmap Basic Port Scans, which introduces the basic types of port scans. 
+Ans1. No Answer
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+--- Room Recap ---
+
+1. ARP Scan 			sudo nmap -PR -sn MACHINE_IP/24
+2. ICMP Echo Scan 		sudo nmap -PE -sn MACHINE_IP/24
+3. ICMP Timestamp Scan 		sudo nmap -PP -sn MACHINE_IP/24
+4. ICMP Address Mask Scan 	sudo nmap -PM -sn MACHINE_IP/24
+5. TCP SYN Ping Scan 		sudo nmap -PS22,80,443 -sn MACHINE_IP/30
+6. TCP ACK Ping Scan 		sudo nmap -PA22,80,443 -sn MACHINE_IP/30
+7. UDP Ping Scan 		sudo nmap -PU53,161,162 -sn MACHINE_IP/30
+
+8. Remember to add -sn if you are only interested in host discovery without port-scanning. Omitting -sn will let Nmap default to port-scanning the live hosts. 
+
+9.  -n 		o DNS lookup
+10. -R 		reverse-DNS lookup for all hosts
+11. -sn 	host discovery only
