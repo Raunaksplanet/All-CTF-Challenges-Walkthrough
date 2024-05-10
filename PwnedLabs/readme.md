@@ -24,12 +24,11 @@
 
 | # | Category                          | Technique                                      |
 |---|-----------------------------------|------------------------------------------------|
-| 1 | AWS (Amazon Web Services) Related | Loot Public EBS Snapshots                     |
+| 1 | AWS (Amazon Web Services) Related |     Assume Privileged Role with External ID    |
 | 3 |                                   | Intro to AWS IAM Enumeration                  |
 | 4 |                                   | Pillage Exposed RDS Instances                 |
 | 5 |                                   | Breach in the Cloud                           |
 | 7 |                                   | Plunder Public RDS Snapshots                  |
-| 8 |                                   | Assume Privileged Role with External ID        |
 | 9 |                                   | Execute and Identify Credential Abuse in AWS  |
 | 10|                                   | Secure S3 with Amazon Macie                   |
 | 11|                                   | Identify IAM Breaches with CloudTrail and Athena |
