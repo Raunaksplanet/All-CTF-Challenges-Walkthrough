@@ -25,7 +25,6 @@
 | # | Category                          | Technique                                      |
 |---|-----------------------------------|------------------------------------------------|
 | 1 | AWS (Amazon Web Services) Related | Loot Public EBS Snapshots                     |
-| 2 |                                   | Identify the AWS Account ID from a Public S3 Bucket |
 | 3 |                                   | Intro to AWS IAM Enumeration                  |
 | 4 |                                   | Pillage Exposed RDS Instances                 |
 | 5 |                                   | Breach in the Cloud                           |
