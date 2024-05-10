@@ -1,4 +1,4 @@
- Challege Link: https://pwnedlabs.io/labs/access-secrets-with-s3-bucket-versioning
+1. Challege Link: https://pwnedlabs.io/labs/access-secrets-with-s3-bucket-versioning
 2. Challenge Name: Access Secrets with S3 Bucket Versioning
 3. Some useful commands during the CTF challenge: 
 	1. aws s3 ls s3://huge-logistics-dashboard --recursive --no-sign-request
