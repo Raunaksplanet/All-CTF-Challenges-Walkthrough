@@ -14,6 +14,9 @@
 |  3  | **Intro to Azure Recon with BloodHound**       |  Red Team  |  Azure           | [Here](https://pwnedlabs.io/labs/intro-to-azure-recon-with-bloodhound) | [Here](https://github.com/Raunaksplanet/All-CTF-Challenges-Walkthrough/tree/main/PwnedLabs/Intro%20to%20Azure%20Recon%20with%20BloodHound)             |   
 |  4  | **Path Traversal to AWS credentials to S3**       |  Red Team  |  AWS           | [Here](https://pwnedlabs.io/labs/path-traversal-to-aws-credentials-to-s3) | [Here](https://github.com/Raunaksplanet/All-CTF-Challenges-Walkthrough/tree/main/PwnedLabs/Path%20Traversal%20to%20AWS%20credentials%20to%20S3)             |   
 |  5  | **Access Secrets with S3 Bucket Versioning**       |  Red Team  |  AWS           | [Here](https://pwnedlabs.io/labs/access-secrets-with-s3-bucket-versioning) | [Here](https://github.com/Raunaksplanet/All-CTF-Challenges-Walkthrough/tree/main/PwnedLabs/Access%20Secrets%20with%20S3%20Bucket%20Versioning)             |   
+|  6  | **Identify the AWS Account ID from a Public S3 Bucket**       |  Red Team  |  AWS           | [Here](https://pwnedlabs.io/labs/identify-the-aws-account-id-from-a-public-s3-bucket) | [Here](https://github.com/Raunaksplanet/All-CTF-Challenges-Walkthrough/tree/main/PwnedLabs/Identify%20the%20AWS%20Account%20ID%20from%20a%20Public%20S3%20Bucket)             |  
+
+
 
 ## Incomplete Labs
 
